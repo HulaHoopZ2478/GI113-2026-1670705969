@@ -42,6 +42,10 @@ namespace Lab02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             Console.WriteLine($"HP Percent: {hpPercentTdmg}%");
             Console.WriteLine();
+
+
+
         }
+
     }
 }
