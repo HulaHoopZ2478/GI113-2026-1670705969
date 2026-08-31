@@ -12,18 +12,27 @@ namespace Lab02
     {
         static void Main(string[] args)
         {
-            string bossName = "Kirin";
-            char rank = 'S';
-            int level = 7;
-            int maxHp = 240;
-            int currentHp = 175;
-            float attackPower = 42.5f;
-            double critMultiplier = 1.75;
-            bool isBoss = true;
-            int hpPercent = currentHp * 100 / maxHp;
+            string Name;
+            char rank;
+            int level;
+            int maxHp;
+            int currentHp;
+            float attackPower;
+            double critMultiplier;
+            bool isBoss;
+            int hpPercent;
 
+            Name = "Kirin";
+            rank = 'S';
+            level = 7;
+            maxHp = 240;
+            currentHp = 175;
+            attackPower = 42.5f;
+            critMultiplier = 1.75;
+            isBoss = true;
+            hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine("===== Boss STATUS: INITAIL =====");
-            Console.WriteLine($"Name: {bossName}");
+            Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Rank: {rank}");
             Console.WriteLine($"Level: {level}");
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
